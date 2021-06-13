@@ -1,6 +1,6 @@
 {
   "name": "create-cbgcli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "cabbage cli",
   "main": "index.js",
   "repository": "https://github.com/cabbage9/create-cbgcli",
