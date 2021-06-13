@@ -3,11 +3,11 @@
   "version": "0.0.3",
   "description": "cabbage cli",
   "main": "index.js",
-  "repository": "https://github.com/cabbage9/cbgcli",
-  "author": "cabbage <iherewithmyheart@gamil.com>",
+  "repository": "https://github.com/cabbage9/create-cbgcli",
+  "author": "cabbage0_0 <iherewithmyheart@gamil.com>",
   "license": "MIT",
   "bin": {
-    "cbgcli": "index.js"
+    "create-cbgcli": "index.js"
   },
   "homepage": "https://https://github.com/cabbage9/create-cbgcli",
   "bugs": "https://https://github.com/cabbage9/create-cbgcli/issues",
