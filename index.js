@@ -107,13 +107,18 @@ async function init() {
       `${__dirname}/templates/${response.template}`,
       `${cwd}/${response.dirname}`
     )
+    const pkg = require(`${cwd}/${response.dirname}/package.json`)
+    pkg.name = response.dirname
+    fse.writeFileSync(
+      `${cwd}/${response.dirname}/package.json`,
+      JSON.stringify(pkg, null, 2)
+    )
     console.log(`\nScaffolding project in ${cwd}/${response.dirname}...\n`)
     console.log('Done. Now run:\n')
     console.log(` cd ${response.dirname}`)
     console.log(' yarn')
     console.log(' yarn docs:dev')
-  }
-  console.log(red('There must be something wrong happened!'))
+  } else console.log(red('There must be something wrong happened!'))
 }
 
 figlet('cbgcli', function (e, data) {
