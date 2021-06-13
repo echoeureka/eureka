@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 /* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/no-var-requires */
 
@@ -118,7 +118,7 @@ async function init() {
     console.log(` cd ${response.dirname}`)
     console.log(' yarn')
     console.log(' yarn docs:dev')
-  } else console.log(red('There must be something wrong happened!'))
+  } else console.log(red('\nThere must be something wrong happened!'))
 }
 
 figlet('cbgcli', function (e, data) {
