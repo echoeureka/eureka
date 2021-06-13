@@ -1,6 +1,6 @@
 # cbgcli
 
-[![NPM version]](https://img.shields.io/npm/v/create-cbgcli.svg?label=%20)
+[![NPM version](https://img.shields.io/npm/v/create-cbgcli?color=3AB9D4&label=)](https://www.npmjs.com/package/create-cbgcli)
 
 > Some features to smplify my config or any other that can be handled automatically.
 
