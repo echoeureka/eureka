@@ -21,4 +21,5 @@ Change user object -> user.name, user.email in index.js.
 You can just yarn create or npm init cbgcli to use other feactures.
 
 ## todo:
+- stylus
 - when i feel something is troublesome
