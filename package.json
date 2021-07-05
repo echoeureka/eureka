@@ -1,16 +1,16 @@
 {
-  "name": "create-cbgcli",
+  "name": "create-cabbage",
   "version": "0.0.4",
   "description": "cabbage cli",
   "main": "index.js",
-  "repository": "https://github.com/cabbage9/create-cbgcli",
+  "repository": "https://github.com/cabbage9/create-cabbage",
   "author": "cabbage0_0 <iherewithmyheart@gamil.com>",
   "license": "MIT",
   "bin": {
-    "create-cbgcli": "index.js"
+    "create-cabbage": "index.js"
   },
-  "homepage": "https://https://github.com/cabbage9/create-cbgcli",
-  "bugs": "https://https://github.com/cabbage9/create-cbgcli/issues",
+  "homepage": "https://https://github.com/cabbage9/create-cabbage",
+  "bugs": "https://https://github.com/cabbage9/create-cabbage/issues",
   "dependencies": {
     "execa": "^5.1.1",
     "figlet": "^1.5.0",
