@@ -1,25 +1,14 @@
-# cbgcli
+# @useless/eureka
 
-[![NPM version](https://img.shields.io/npm/v/create-cbgcli?color=3AB9D4&label=)](https://www.npmjs.com/package/create-cbgcli)
+[![NPM version](https://img.shields.io/npm/v/create-cbgcli?color=3AB9D4&label=)](https://www.npmjs.com/package/@useless/eureka)
 
-> Some features to smplify my config or any other that can be handled automatically.
+> Eureka!!!
 
-## features
-- git proxy
-- git unset proxy
-- git user config
-- VitePress Template
+## Features
 
-## how to use it?
+- Manage Git proxy
+- Manage Git multi-user
 
-```
-star this repo
-fork this repo
-```
+## TODO:
 
-Change user object -> user.name, user.email in index.js.
-You can just yarn create or npm init cbgcli to use other feactures.
-
-## todo:
-- stylus
-- when i feel something is troublesome
+ESM
