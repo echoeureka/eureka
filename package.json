@@ -1,22 +1,20 @@
 {
-  "name": "create-cabbage",
+  "name": "@useless/eureka",
   "version": "0.0.4",
-  "description": "cabbage cli",
+  "description": "cli",
   "main": "index.js",
-  "repository": "https://github.com/cabbage9/create-cabbage",
-  "author": "cabbage0_0 <iherewithmyheart@gamil.com>",
+  "repository": "https://github.com/ryanmoyo/eureka",
+  "author": "ryanmoyo <iherewithmyheart@gamil.com>",
   "license": "MIT",
   "bin": {
-    "create-cabbage": "index.js"
+    "eureka": "index.js"
   },
-  "homepage": "https://https://github.com/cabbage9/create-cabbage",
-  "bugs": "https://https://github.com/cabbage9/create-cabbage/issues",
+  "homepage": "https://https://github.com/ryanmoyo/eureka",
+  "bugs": "https://https://github.com/ryanmoyo/eureka/issues",
   "dependencies": {
+    "conf": "^10.1.1",
     "execa": "^5.1.1",
-    "figlet": "^1.5.0",
-    "fs-extra": "^10.0.0",
     "kolorist": "^1.4.1",
-    "minimist": "^1.2.5",
     "prompts": "^2.4.1"
   }
 }
